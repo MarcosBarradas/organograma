@@ -1,0 +1,44 @@
+.cards-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cartões */
+    gap: 1.25rem; /* Adiciona espaço entre os cartões */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, var(--title-after-bg-color) 33%, white 33%); /*novo aprendizado*/
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 14rem; /* Largura do card */
+    margin: 10px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.card h4 {
+    color: #6278f7;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.card h5 {
+     font-size: 18px;;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+}
